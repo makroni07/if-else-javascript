@@ -7,7 +7,7 @@ if (nama==="") {
 }
 
 else if (nama) {
-	console.log("Halo" +nama+ ", selamat datang di proxitya");
+	console.log("Halo," +nama+ " selamat datang di proxitya");
 }
 
 else if (peran==="") {
@@ -15,16 +15,16 @@ else if (peran==="") {
 }
 
 else if (peran==="Ksatria") {
-	console.log("Ksatria" +nama+ ",kamu dapat menggunakan pedang untuk menyerang nya");
+	console.log("Ksatria," +nama+ "kamu dapat menggunakan pedang untuk menyerang nya");
 }
 
 else if (peran==="Tabib") {
-	console.log("Tabib" +nama+ ",kamu dapat mengobati teman kamu yang terluka");
+	console.log("Tabib," +nama+ "kamu dapat mengobati teman kamu yang terluka");
 }
 
 
 else if (peran==="Penyihir") {
-	console.log("Penyihir" +nama+ ",kamu dapat mengunakan sihir untuk membantu teman mu");
+	console.log("Penyihir," +nama+ "kamu dapat mengunakan sihir untuk membantu teman mu");
 }
 
 else if (nama==="" && peran) {
